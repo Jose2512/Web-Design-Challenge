@@ -2,13 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="WebVisualizations/assets/style.css">
     <title>Web Visualization Dashboard</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a href="#" class="navbar-brand ml-3">Lattitude</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar_menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Max Temperature</a>
+            <a class="dropdown-item" href="#">Humidity</a>
+            <a class="dropdown-item" href="#">Cloudiness</a>
+            <a class="dropdown-item" href="#">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+          </li>
+        </ul>   
+      </div>
+    </nav>
+    <div class="container my-container">
+      <div class="row">
+        <div class="col-lg-9 col sm-12 my-col">
+          <h2>Project Description</h2>
+          <img src="https://via.placeholder.com/200.png">
+          <p>In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.</p>
+        </div>
+        <div class="col-lg-3 col-sm-12 my-col">
+          <h2>Visualizations</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas, leo nec hendrerit tristique, est nibh cursus neque, vel bibendum orci ex a elit. Morbi varius sodales tempor. Praesent augue lectus, sollicitudin quis eleifend vel, faucibus ac libero. Cras lobortis nulla sit amet felis mollis, sed pellentesque ipsum pharetra. Nunc eget ultricies ipsum, in tempus ex. Integer mollis ex mauris, ut ultricies nulla fringilla sed. Duis nisl leo, mattis ac pellentesque ut, sodales eget nibh. Duis id augue in velit fermentum feugiat at in nunc. Nam efficitur est quam, id dapibus urna pellentesque et. Suspendisse ut justo nec turpis porta lacinia mattis ut sapien. Morbi vestibulum arcu pellentesque urna varius rutrum. Sed scelerisque leo enim, eu fermentum lorem sollicitudin eu.
+            Aliquam erat volutpat. In a suscipit justo, ut iaculis turpis. Proin eleifend nulla bibendum, pellentesque erat at, pretium justo. Suspendisse eros libero, consequat vitae lacinia eget, pharetra sed ligula. Mauris eget dui et arcu gravida hendrerit. Phasellus ac varius eros. Donec in vestibulum quam. Donec finibus, nisi eget convallis molestie, libero tellus ultricies orci, id semper tellus eros eget turpis. Maecenas ornare, ligula et placerat placerat, ex libero accumsan justo, id pretium diam erat id risus. Integer feugiat tellus ut scelerisque pharetra. Donec nec lacinia turpis.</p>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
