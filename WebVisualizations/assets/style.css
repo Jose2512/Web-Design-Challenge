@@ -72,3 +72,16 @@ hr{
 .description{
     height: 50px;
 }
+.other_visualitations{
+    font-size: 32px;
+}
+h3{
+    text-align: left;
+
+}
+td{
+    width: 60pt;
+}
+.index_col{
+    width: 10pt;
+}
