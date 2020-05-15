@@ -11,7 +11,7 @@
   <body>
 
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <a href="index.html" class="navbar-brand ml-3" id="logo_letters">Lattitude</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_menu">
         <span class="navbar-toggler-icon"></span>
@@ -38,6 +38,7 @@
         </ul>   
       </div>
     </nav>
+    
     <!-- First Item of content-->
     <div class="container-fluid ">
       <div class="row welcome text-center">
@@ -46,13 +47,14 @@
         </div>
       </div>
     </div>  
-    <div class="container padding">
+    <div class="container">
       <div class="row text-center">
-        <div class="col-lg-6 col-md-12">
-          <img src="WebVisualizations/Resources/images/weather.jpg" class="img-fluid rounded shadow p-3 mb-5 rounded">
-          </div>
-        <div class="col-lg-6 col-md-12" id="project_description">
-          <p>In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.</p>
+        <div class="col-12">
+          <img src="WebVisualizations/Resources/images/weather.jpg" class="cover_img rounded shadow mb-5 bg-white rounded float-left">
+
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to asseble a dataset on over 500 cities.</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+          <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
         </div>
       </div>
     </div>

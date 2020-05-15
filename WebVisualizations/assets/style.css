@@ -14,8 +14,9 @@ html,body {
     padding-right: 20px;
 }
 
-.navlink{
-    font-size: 1.1em;
+.nav-link{
+    font-size: 1em;
+    padding: 0px;
 }
 
 .padding{
@@ -34,7 +35,7 @@ p{
 
 #logo_letters{
     font-size: 42px;
-    font-weight: 600;
+    font-weight: 400;
     color: #9fa3a5;
 }
 
@@ -81,7 +82,21 @@ h3{
 }
 td{
     width: 60pt;
+    text-align: center;
+}
+th{
+    text-align: center;
 }
 .index_col{
     width: 10pt;
+}
+.cover_img{
+    width: 500px;
+    margin: 0px 35px 0px 35px;
+}
+#small_center_title{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
 }
